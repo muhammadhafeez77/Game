@@ -33,14 +33,19 @@ int main() // =============== MAIN ==================
     cin >> input1;
     cout << "\nEnter column (1-3) : ";
     cin >> input2;
-    if (-1 < (input1 || input2) > 3) // CHECKER
-    {
-      user_count++;
-      continue;
-    }
 
     input1--;
     input2--;
+    std::system("clear"); // LINUX OS , MacOS                // CLEAR SCREEN
+                          // std::system( "cls"); // WINDOWS
+
+    if ((0 > input1 || input1 > 3) || (0 > input2 || input2 > 3)) // CHECKER
+    {
+      cout << "Turn Terminated . Please Enter Between valid rows and column";
+      user_count++;
+      print();
+      continue;
+    }
 
     for (int i = 0; i < row; i++) // CHECKS IF IT HITS OR MISSES
     {
@@ -62,11 +67,6 @@ int main() // =============== MAIN ==================
         }
       }
     }
-    std::system("clear"); // LINUX OS                                // CLEARS
-                          // TERMINAL SCREEN ( FOR BETTER VISUALS )
-    std::system(
-        "cls"); // WINDOWS OS                              // (( Uncomment and
-                // comment on , depends on which OS you are using ))
 
     user_count++;
     cout << "\n";
