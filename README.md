@@ -28,6 +28,11 @@ added a checker to see if the number exceeds the rows and coulumns . If it does
 the loop or ( the turn is wasted)
                                                        ---07/07/2026---/*77*/
 
+- Changed the name of some variables , as it was giving ambigious state to 
+  C++ keywords in some systems 
+                                                       ---12/08/2026---/*77*/
+
+
 # Reader's / Player's Notes:
                                                        
 
