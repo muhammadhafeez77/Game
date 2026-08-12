@@ -18,12 +18,12 @@ rights to use, copy, modify, merge. It's Open-Source
    
 # Author's Notes:
 
-Its my first time making something like this in C/C++ ,So I decided to
+- Its my first time making something like this in C/C++ ,So I decided to
 upload it , I will be making further modifications or upgrading it as I
 learn more and more stuff . If anyone want to add their notes feel free , I
 would welcome the advice and suggestions , If I can manage and do it.
                                                       ---09/02/2026---/*77*/
-Just added the capability to use rows and coulums as standered user and
+- Just added the capability to use rows and coulums as standered user and
 added a checker to see if the number exceeds the rows and coulumns . If it does
 the loop or ( the turn is wasted)
                                                        ---07/07/2026---/*77*/
